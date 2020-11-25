@@ -17,9 +17,9 @@ Chat Features:
 
 ## How To Play
 
-![](public/img/listitems.JPG)
-![](public/img/listpersons.JPG)
-![](public/img/returnbook.JPG)
+![](img/listitems.JPG)
+![](img/listpersons.JPG)
+![](img/returnbook.JPG)
 
 
 ## How to Test
