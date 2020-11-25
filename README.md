@@ -1,21 +1,35 @@
 # Library Database
 
-- Browser based IO Games using Node.js and socket.io packets 
-- Mimicked a client server environment using web sockets 
-- Client connections organized into unique rooms and can run independently
+- Designed and built a real-world database application for Vancouver libraries
+- Designed an entity-relationship model and drafted it into an E/R diagram 
+- Ensured the schema meets the requirements and avoids anomalies
+- Converted the E/R diagrams to table schemas for this database using sqlite
+- Built the database application using Python and SQLite
 
-## Features
-
-Chat Features:
-- Users can join different rooms by each entering a player name and game id
-- Users can assigned a unique identification color
-- Users can send messages to other users in the room
-- A notification is sent when a user joins or leaves the room
-- Chatroom tracks the number of connected users, player name & color 
-- Users can toggle chat display to show or hide chat
+## Features/ Specifications
+- Users can find an item in the library
+- Users can borrow an item from the library
+- Users can return a borrowed item
+- User can donate an item to the library
+- Users can find an event in the library
+- Users can register for an event in the library
+- Users can volunteer for the library
+- Users can ask for help from a librarian
+- Users can list all items, people, dues and events
 
 ## E/R Diagram
 ![](img/erdiagram.JPG)
+
+## Schema
+- Item (+ID+, title, author, edition, year, genre, quantity, numAvailable)
+- ItemCopy (itemID, copyNum, type, status)
+- FutureItem (ID, title, author, edition, year, genre, quantity, type, arrivalDate)
+- Person (ID, firstName, lastName, age, owes)
+- Registered (personID, eventID)
+- Event (ID, eventName, date, room, startTime, endTime, fee, recommendedAge)
+- CheckedOut (copyID, personID, itemID)
+- Dues (copyID, personID, itemID, dueDate)
+- Staff (ID, firstName, lastName, age, gender, role)
 
 ## Demo
 - List all book items
