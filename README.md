@@ -3,7 +3,7 @@
 - Designed and built a real-world database application for Vancouver libraries
 - Designed an entity-relationship model and drafted it into an E/R diagram 
 - Ensured the schema met the project requirements and avoided anomalies
-- Converted the E/R diagram to table schemas for this database using sqlite
+- Converted the E/R diagram to table schemas for this database using SQLite
 - Built the database application using Python and SQLite
 
 ## Features/ Specifications
