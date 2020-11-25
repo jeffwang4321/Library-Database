@@ -20,9 +20,11 @@ Chat Features:
 ![](img/listitems.JPG)
 
 - List all people and dues
+
 ![](img/listpersons.JPG)
 
 - Return a book item
+
 ![](img/returnbook.JPG)
 
 
