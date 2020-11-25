@@ -17,6 +17,7 @@ Chat Features:
 
 ## Demo
 - List all book items
+
 ![](img/listitems.JPG)
 
 - List all people and dues
