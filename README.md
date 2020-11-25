@@ -16,13 +16,13 @@ Chat Features:
 
 
 ## Demo
-List all book items
+- List all book items
 ![](img/listitems.JPG)
 
-List all people and dues
+- List all people and dues
 ![](img/listpersons.JPG)
 
-Return a book item
+- Return a book item
 ![](img/returnbook.JPG)
 
 
