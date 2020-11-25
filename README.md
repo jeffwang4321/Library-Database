@@ -15,10 +15,14 @@ Chat Features:
 - Users can toggle chat display to show or hide chat
 
 
-## How To Play
-
+## Demo
+List all book items
 ![](img/listitems.JPG)
+
+List all people and dues
 ![](img/listpersons.JPG)
+
+Return a book item
 ![](img/returnbook.JPG)
 
 
