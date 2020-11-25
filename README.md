@@ -21,7 +21,7 @@
 ![](img/erdiagram.JPG)
 
 ## Schema
-- Item (+ID+, title, author, edition, year, genre, quantity, numAvailable)
+- Item (<ins>ID</ins>, title, author, edition, year, genre, quantity, numAvailable)
 - ItemCopy (itemID, copyNum, type, status)
 - FutureItem (ID, title, author, edition, year, genre, quantity, type, arrivalDate)
 - Person (ID, firstName, lastName, age, owes)
