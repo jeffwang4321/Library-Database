@@ -14,15 +14,19 @@ Chat Features:
 - Chatroom tracks the number of connected users, player name & color 
 - Users can toggle chat display to show or hide chat
 
+## E/R Diagram
+![](img/erdiagram.JPG)
 
 ## Demo
 - List all book items
 
 ![](img/listitems.JPG)
 
+
 - List all people and dues
 
 ![](img/listpersons.JPG)
+
 
 - Return a book item
 
