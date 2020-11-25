@@ -22,14 +22,14 @@
 
 ## Schema
 - Item (<ins>ID</ins>, title, author, edition, year, genre, quantity, numAvailable)
-- ItemCopy (itemID, copyNum, type, status)
-- FutureItem (ID, title, author, edition, year, genre, quantity, type, arrivalDate)
-- Person (ID, firstName, lastName, age, owes)
-- Registered (personID, eventID)
-- Event (ID, eventName, date, room, startTime, endTime, fee, recommendedAge)
-- CheckedOut (copyID, personID, itemID)
-- Dues (copyID, personID, itemID, dueDate)
-- Staff (ID, firstName, lastName, age, gender, role)
+- ItemCopy (<ins>itemID</ins>, <ins>copyNum</ins>, type, status)
+- FutureItem (<ins>ID</ins>, title, author, edition, year, genre, quantity, type, arrivalDate)
+- Person (<ins>ID</ins>, firstName, lastName, age, owes)
+- Registered (<ins>personID</ins>, <ins>eventID</ins>)
+- Event (<ins>ID</ins>, eventName, date, room, startTime, endTime, fee, recommendedAge)
+- CheckedOut (<ins>copyID</ins>, <ins>personID</ins>, <ins>itemID</ins>)
+- Dues (<ins>copyID</ins>, <ins>personID</ins>, <ins>itemID</ins>, dueDate)
+- Staff (<ins>ID</ins>, firstName, lastName, age, gender, role)
 
 ## Demo
 - List all book items
